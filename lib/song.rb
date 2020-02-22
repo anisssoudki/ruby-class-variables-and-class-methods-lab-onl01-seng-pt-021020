@@ -27,7 +27,7 @@ attr_accessor :name, :artist, :genre
   def artist_count
     
     #push the artist name and count 
-    @@artist
+    @@artist.each do |x|
     
   end
   

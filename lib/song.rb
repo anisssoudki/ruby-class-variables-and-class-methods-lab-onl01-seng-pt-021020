@@ -20,9 +20,7 @@ attr_accessor :name, :artist, :genre
     @@genre.uniq
   end
   
-  def self.artist
-    @@artist.uniq
-  end
+  
   
   def self.artist_count
     
@@ -35,8 +33,11 @@ attr_accessor :name, :artist, :genre
       end
     
     artist-count
-  end
+   end
     
+  end
+  def self.artist
+    @@artist.uniq
   end
   
   def self.genre_count

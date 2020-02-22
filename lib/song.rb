@@ -24,7 +24,7 @@ attr_accessor :name, :artist, :genre
     @@artist.uniq
   end
   
-  def artist_count
+  def self.artist_count
     
     #push the artist name and count 
     @@artist.each do |artist| 
@@ -39,7 +39,7 @@ attr_accessor :name, :artist, :genre
     
   end
   
-  def genre_count
+  def self.genre_count
     # push the genre and number of genre
     @@genre.each do |genre| 
       if genre_count[genre]

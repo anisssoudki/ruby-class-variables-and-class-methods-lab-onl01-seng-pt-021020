@@ -22,7 +22,7 @@ attr_accessor :name, :artist, :genre
       if artist-count[artist]
         genre_count[artist] +=l
       else
-        genre_count[artist]
+        genre_count[artist] = 1
       end
     
     artist-count

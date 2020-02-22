@@ -27,14 +27,14 @@ attr_accessor :name, :artist, :genre
   def artist_count
     
     #push the artist name and count 
-    @@artist.each do |genre| 
-      if genre_count[genre]
-        genre_count[genre] +=l
+    @@artist.each do |artist| 
+      if artist-count[artist]
+        genre_count[artist] +=l
       else
-        genre_count[genre]
+        genre_count[artist]
       end
     
-    genre_count
+    artist-count
   end
     
   end

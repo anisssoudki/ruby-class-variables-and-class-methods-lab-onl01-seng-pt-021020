@@ -41,7 +41,15 @@ attr_accessor :name, :artist, :genre
   
   def genre_count
     # push the genre and number of genre
-    @@genre
+    @@genre.each do |genre| 
+      if genre_count[genre]
+        genre_count[genre] +=l
+      else
+        genre_count[genre]
+      end
+    
+    genre_count
+  end
     
   end
   
